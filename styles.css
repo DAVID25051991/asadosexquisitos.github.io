@@ -1,3 +1,111 @@
 *{
+    padding: 0;
+    margin: 0;
+}
+body{
     background-image: url(img/back.jpg);
+}
+.logo_nav{
+    display: grid;
+    place-items: center;
+}
+#titulo span{
+    position: absolute;
+ 
+    height: 240px;
+    font-size: 40px;
+    width: 10px;
+    text-align: center;
+    transform-origin: bottom center;
+    color: black;
+}
+
+.logo_img{
+    padding-top: 40px;
+}
+.rionegro{
+   background-color: rgba(250, 235, 215, 0.274);
+   /* border-bottom: solid 3px;
+   border-top: solid 4px; */
+   border-radius: 15px;
+   margin: 15px;
+   padding: 0px 15px 0px 15px;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    
+}
+li{
+    list-style-image: url(img/llamaPeque.png);
+    list-style-position: outside;
+    background-size: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+.lista_nav{
+    background-color: rgba(250, 235, 215, 0.678);
+    border-radius: 15px;
+    padding: 15px;
+}
+.emblema{
+    margin: 3rem;
+    text-align: center;
+    font-size: 2rem;
+    background-color: rgba(250, 235, 215, 0.274);
+    border-radius: 15px;
+}
+.section1{
+    display: grid;
+    place-items: center;
+    margin: 1rem;
+    background-color: rgba(250, 235, 215, 0.493);
+    width: 50%;
+    border-radius: 15px;
+    padding: 15px;
+}
+.titu_criolla{
+    text-align: center;
+}
+.titu_criolla h2{
+    font-size: 3rem;
+}
+.llama{
+    width: 100px;
+    margin: 0rem;
+}
+
+.porcion_medi{
+    width: 100px;
+    height: 0px;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    
+
+}
+
+.brasas_criolla{
+    display: flex;
+    place-items: center;
+}
+.logoList{
+    width: 45px;
+    padding: 1rem;
+}
+
+.porcion{
+    width: 100px;
+    height: 60px;
+    justify-content: center;
+    text-align: center;
+}
+
+.producto{
+    width: 300px;
+    height: 60px;
 }
