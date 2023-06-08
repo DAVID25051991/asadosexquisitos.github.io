@@ -12,28 +12,29 @@ body {
     place-items: center;
     width: 100%;
     height: auto;
+    padding: 21px;
     align-items: center;
 }
 
 #titulo span {
     position: absolute;
-    height: 240px;
-    font-size: 40px;
-    width: 10px;
+    height: 15rem;
+    font-size: 2.5rem;
+    width: 0.8rem;
     text-align: center;
     transform-origin: bottom center;
     color: black;
 }
 
 .logo_img {
-    padding-top: 40px;
+    padding-top: 2.5rem;
 }
 
 .rionegro {
     background-color: rgba(250, 235, 215, 0.274);
-    border-radius: 15px;
-    margin: 15px;
-    padding: 0px 15px 0px 15px;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 0rem 1rem 0rem 1rem;
 }
 
 ul {
@@ -46,7 +47,7 @@ ul {
 li {
     list-style-image: url(img/llamaPeque.png);
     list-style-position: outside;
-    background-size: 10px;
+    background-size: 0.8rem;
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
@@ -54,8 +55,8 @@ li {
 
 .lista_nav {
     background-color: rgba(250, 235, 215, 0.678);
-    border-radius: 15px;
-    padding: 15px;
+    border-radius: 1rem;
+    padding: 1rem;
     width: 90%;
 }
 
@@ -75,21 +76,8 @@ li {
     margin: 1rem;
     background-color: rgba(250, 235, 215, 0.493);
     padding: 1rem;
-    border-radius: 15px;
+    border-radius: 1rem;
     width: 100%;
-}
-
-@media (max-width: 768px) {
-    .modulo1 {
-        display: grid;
-        align-items: center;
-        justify-content: space-between;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 100%;
-        /* Estilos para pantallas más pequeñas */
-    }
 }
 
 .titu_criolla {
@@ -119,8 +107,11 @@ li {
 }
 
 .logoList {
-    width: 45px;
+    width: 2rem;
     padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .porcion {
@@ -130,17 +121,13 @@ li {
 }
 
 .producto {
-    width: 250px;
-    height: 60px;
+    width: 16rem;
+    height: 4rem;
 }
 
 .emplema_conntent {
     width: 100%;
     height: auto;
-    display: flex;
-  
-    align-items: center;
-    justify-content: center;
 }
 .emblema{
     width: 90%;
@@ -149,7 +136,7 @@ li {
     text-align: center;
     font-size: 2rem;
     background-color: rgba(250, 235, 215, 0.274);
-    border-radius: 15px;
+    border-radius: 1rem;
 }
 .modulo1{
     margin: 0px;
@@ -159,24 +146,14 @@ li {
     display: flex;
     justify-content: space-around;
 }
-@media (max-width: 768px) {
-    .modulo1 {
-        display: grid;
-        align-items: center;
-        justify-content: space-between;
-        margin: 0px;
-        padding: 0px;
-        width: 100%;
-        height: 100%;
-        /* Estilos para pantallas más pequeñas */
-    }
+
 .section1{
     display: grid;
     place-items: center;
     margin: 1rem;
     background-color: rgba(250, 235, 215, 0.493);
     padding: 1rem;
-    border-radius: 15px;
+    border-radius: 1rem;
     width: 100%;
 
 }
@@ -188,12 +165,13 @@ li {
     font-size: 3rem;
 }
 .llama{
-    width: 100px;
+    width: 7rem;
     margin: 0rem;
+    
 }
 
 .porcion_medi{
-    width: 100px;
+    width: 7rem;
     height: 0px;
     justify-content: center;
     text-align: center;
@@ -201,24 +179,108 @@ li {
     
 
 }
-
+.criolla{
+    display: flex;
+    font-size: 1rem;
+}
 .brasas_criolla{
     display: flex;
     place-items: center;
+
 }
 .logoList{
-    width: 45px;
+    width: 2.5rem;
     padding: 1rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 
 .porcion{
-    width: 100px;
-    
+    width: 5rem;
     justify-content: center;
     text-align: center;
 }
 
 .producto{
-    width: 250px;
-    height: 60px;
+    width: 14rem;
+    height: 7rem;
+}
+/*cambio*/
+.criolla{
+    display: flex;
+    font-size: 1rem;
+}
+.brasas_criolla{
+    display: flex;
+    place-items: center;
+
+}
+.logoList{
+    width: 2.5rem;
+    padding: 1rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.porcion{
+    width: 5rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.producto{
+    width: 14rem;
+    height: 7rem;
+    
+}
+
+@media (max-width: 768px) {
+    ul {
+        gap:2rem;
+        font-size: 14px;
+        padding: 0.5rem;
+    }
+    .modulo1 {
+        display: grid;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 100%;
+        /* Estilos para pantallas más pequeñas */
+    }
+    .brasas_criolla {
+        display: flex;
+        place-items: center;
+        flex-wrap: wrap;
+        align-items: baseline;
+    }
+    .logoList{
+        width: 2.5rem;
+        padding: 1rem;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        position: absolute;
+        left: 1rem;
+    }
+    .logoList img{
+        
+        align-items: center;
+    }
+    .porcion{
+        width: 5rem;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .producto{
+    width: 7rem;
+    height: auto;
+    padding: 1rem;
+    
+    }
 }
