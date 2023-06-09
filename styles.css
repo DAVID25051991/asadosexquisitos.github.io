@@ -64,10 +64,12 @@ li {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100vh; /* Cambio de height: 100% a height: 100vh */
+    height: 100vh;
+    /* Cambio de height: 100% a height: 100vh */
     display: flex;
     justify-content: space-around;
-    align-items: center; /* Añadido align-items: center */
+    align-items: center;
+    /* Añadido align-items: center */
 }
 
 .section1 {
@@ -129,7 +131,8 @@ li {
     width: 100%;
     height: auto;
 }
-.emblema{
+
+.emblema {
     width: 90%;
     height: auto;
     margin: 3rem;
@@ -138,7 +141,8 @@ li {
     background-color: rgba(250, 235, 215, 0.274);
     border-radius: 1rem;
 }
-.modulo1{
+
+.modulo1 {
     margin: 0px;
     padding: 0px;
     width: 100%;
@@ -146,7 +150,8 @@ li {
     display: flex;
     justify-content: space-around;
 }
-.modulo2{
+
+.modulo2 {
     margin: 0px;
     padding: 0px;
     width: 90%;
@@ -155,7 +160,8 @@ li {
     justify-content: space-between;
     justify-items: end;
 }
-.section1{
+
+.section1 {
     display: grid;
     place-items: center;
     margin: 1rem;
@@ -166,37 +172,42 @@ li {
 
 }
 
-.titu_criolla{
+.titu_criolla {
     text-align: center;
 }
-.titu_criolla h2{
+
+.titu_criolla h2 {
     font-size: 3rem;
 }
-.llama{
+
+.llama {
     width: 7rem;
     margin: 0rem;
-    
+
 }
 
-.porcion_medi{
+.porcion_medi {
     width: 7rem;
     height: 0px;
     justify-content: center;
     text-align: center;
     font-weight: 700;
-    
+
 
 }
-.criolla{
+
+.criolla {
     display: flex;
     font-size: 1rem;
 }
-.brasas_criolla{
+
+.brasas_criolla {
     display: flex;
     place-items: center;
 
 }
-.logoList{
+
+.logoList {
     width: 2.5rem;
     padding: 1rem;
     display: flex;
@@ -204,27 +215,30 @@ li {
     justify-content: center;
 }
 
-.porcion{
+.porcion {
     width: 5rem;
     justify-content: center;
     text-align: center;
 }
 
-.producto{
+.producto {
     width: 14rem;
     height: 7rem;
 }
+
 /*cambio*/
-.criolla{
+.criolla {
     display: flex;
     font-size: 1rem;
 }
-.brasas_criolla{
+
+.brasas_criolla {
     display: flex;
     place-items: center;
 
 }
-.logoList{
+
+.logoList {
     width: 2.5rem;
     padding: 1rem;
     display: flex;
@@ -232,24 +246,61 @@ li {
     justify-content: center;
 }
 
-.porcion{
+.porcion {
     width: 5rem;
     justify-content: center;
     text-align: center;
 }
 
-.producto{
+.producto {
     width: 14rem;
     height: 7rem;
-    
+
 }
 
 @media (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #titulo span {
+        position: absolute;
+        height: 11rem;
+        font-size: 1.5rem;
+        width: 0rem;
+        text-align: center;
+        transform-origin: bottom center;
+        color: black;
+    }
+    .logo_nav {
+        display: grid;
+        place-items: center;
+        width: 100%;
+        height: auto;
+        padding: 6px;
+        justify-content: center;
+        justify-items: center;
+    }
+    display: flex;
+    background-color: rgba(250, 235, 215, 0.678);
+    border-radius: 1rem;
+    /* width: 90%; */
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+}
     ul {
-        gap:2rem;
+        gap: 2rem;
         font-size: 14px;
         padding: 0.5rem;
     }
+
+    .emplema_conntent {
+        display: flex;
+        /* width: 100%; */
+        /* height: auto; */
+        justify-content: space-around;
+    }
+
     .modulo1 {
         display: grid;
         align-items: center;
@@ -260,13 +311,25 @@ li {
         height: 100%;
         /* Estilos para pantallas más pequeñas */
     }
+
+    .section1 {
+        display: grid;
+        place-items: center;
+        margin: 0rem;
+        background-color: rgba(250, 235, 215, 0.493);
+        padding: 0.5rem;
+        border-radius: 0rem;
+        width: 100%;
+    }
+
     .brasas_criolla {
         display: flex;
         place-items: center;
         flex-wrap: wrap;
         align-items: baseline;
     }
-    .logoList{
+
+    .logoList {
         width: 2.5rem;
         padding: 1rem;
         display: flex;
@@ -275,20 +338,24 @@ li {
         position: absolute;
         left: 1rem;
     }
-    .logoList img{
-        
+
+    .logoList img {
+
         align-items: center;
     }
-    .porcion{
+
+    .porcion {
         width: 5rem;
         display: flex;
         justify-content: center;
-        
+
     }
-    .producto{
-    width: 7rem;
-    height: auto;
-    padding: 1rem;
-    
+
+    .producto {
+        width: 7rem;
+        height: auto;
+        padding: 1rem;
+
     }
 }
+
