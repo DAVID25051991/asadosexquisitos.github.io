@@ -146,7 +146,15 @@ li {
     display: flex;
     justify-content: space-around;
 }
-
+.modulo2{
+    margin: 0px;
+    padding: 0px;
+    width: 90%;
+    height: 100%;
+    display: grid;
+    justify-content: space-between;
+    justify-items: end;
+}
 .section1{
     display: grid;
     place-items: center;
