@@ -36,7 +36,10 @@ body {
     margin: 1rem;
     padding: 0rem 1rem 0rem 1rem;
 }
-
+a {
+    text-decoration: none;
+    color: black;
+}
 ul {
     display: flex;
     justify-content: center;
@@ -52,6 +55,7 @@ li {
     background-position: center;
     text-align: center;
 }
+
 
 .lista_nav {
     background-color: rgba(250, 235, 215, 0.678);
@@ -266,6 +270,11 @@ li {
         margin: 0;
         padding: 0;
     }
+    header{
+     width: 100%;
+    position: fixed;
+     z-index: 100;
+    }  
 
     #titulo span {
         position: absolute;
@@ -282,7 +291,7 @@ li {
         place-items: center;
         width: 100%;
         height: auto;
-        padding: 6px;
+        padding: 220px 6px 6px 6px;
         justify-content: center;
         justify-items: center;
     }
@@ -294,12 +303,21 @@ li {
         /* width: 90%; */
         /* flex-wrap: wrap; */
         flex-direction: column;
+        
     }
 
     ul {
         gap: 1rem;
         font-size: 14px;
         padding: 0.5rem;
+
+    }
+    li{
+        margin: 0 7px;
+     
+    }
+    .primera_list{
+       margin: 15px;
     }
 
     .emplema_conntent {
