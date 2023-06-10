@@ -324,12 +324,14 @@ li {
         display: grid;
         place-items: center;
         /* margin: 0rem; */
-        background-color: rgba(250, 235, 215, 0.493);
+        background-color: rgba(250, 235, 215, 0.7);
         padding: 0.5rem;
-        border-radius: 0rem;
+        border-radius: 1rem;
         width: 90%;
     }
-
+    .titu_criolla h2 {
+    font-size: 2rem;
+}
     .brasas_criolla {
         display: flex;
         place-items: center;
@@ -363,7 +365,7 @@ li {
     .producto {
         width: 8rem;
         height: auto;
-        padding: 1rem;
+        padding: 0.5rem;
         font-size: 0.8rem;
     }
 
